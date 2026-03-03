@@ -1,5 +1,5 @@
 {
-    "version": "4.8.1",
+    "version": "5.0.1",
     "description": "A simple, light and easy-to-use RSS/ATOM feed aggregator",
     "homepage": "https://github.com/martinrotter/rssguard",
     "license": "GPL-3.0-only",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/martinrotter/rssguard/releases/download/4.8.1/rssguard-4.8.1-3dde4064f-win10.7z",
-            "hash": "f5783fc0fcd0cff889fcdf2b3a0c33320f6ff89697cd0039fab429acd8b1c14d"
+            "url": "https://github.com/martinrotter/rssguard/releases/download/5.0.1/rssguard-5.0.1-qt6-win10.7z",
+            "hash": "629cbb6836f9d18f31f2df663d082b21ccc1c470e53e2df08e13d7add7f2a9e2"
         }
     },
     "pre_install": "Remove-Item \"$dir\\vc_redis*\"",

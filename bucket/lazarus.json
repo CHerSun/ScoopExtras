@@ -1,5 +1,5 @@
 {
-    "version": "3.6",
+    "version": "4.6",
     "description": "A Delphi compatible cross-platform IDE for Rapid Application Development.",
     "homepage": "https://www.lazarus-ide.org",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/lazarus/Lazarus%20Windows%2064%20bits/Lazarus%203.6/lazarus-3.6-fpc-3.2.2-win64.exe",
-            "hash": "568ec39f976d789ad4cfee75c999f1fe4fe0cbf54089a2b26d3b098b9190cc75"
+            "url": "https://downloads.sourceforge.net/project/lazarus/Lazarus%20Windows%2064%20bits/Lazarus%204.6/lazarus-4.6-fpc-3.2.2-win64.exe",
+            "hash": "e53ef697644bfa9588cee833edd2c76af42f79331fff2eb9f730fef86fbda00f"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/lazarus/Lazarus%20Windows%2032%20bits/Lazarus%203.6/lazarus-3.6-fpc-3.2.2-win32.exe",
-            "hash": "72d3e02dc2d87d3a637ddc1640e1d4fc1ef6c1a7b5a4ce182161e881f8952c46"
+            "url": "https://downloads.sourceforge.net/project/lazarus/Lazarus%20Windows%2032%20bits/Lazarus%204.6/lazarus-4.6-fpc-3.2.2-win32.exe",
+            "hash": "0bcfdde9d533058f3b730034c4575b4412821f2117cba77d078eee41836af10a"
         }
     },
     "innosetup": true,

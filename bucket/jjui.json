@@ -1,0 +1,35 @@
+{
+    "version": "0.9.12",
+    "description": "Jujutsu UI (jjui) is a Text User Interface (TUI) designed for interacting with the Jujutsu version control system.",
+    "homepage": "https://idursun.github.io/jjui/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/idursun/jjui/releases/download/v0.9.12/jjui-0.9.12-windows-amd64.zip",
+            "hash": "dc2d2ba9875b947871c4e05149020ad3099283532004e708232e81c8dbced998"
+        },
+        "arm64": {
+            "url": "https://github.com/idursun/jjui/releases/download/v0.9.12/jjui-0.9.12-windows-arm64.zip",
+            "hash": "56d642848be2bfc9d21519cef59eb840add830461904dba4722d566bd67c67d2"
+        }
+    },
+    "pre_install": "Get-ChildItem -Path $dir -Filter 'jjui*.exe' -Recurse | Select-Object -First 1 | Rename-Item -NewName 'jjui.exe'",
+    "env_set": {
+        "JJUI_CONFIG_DIR": "$dir\\config"
+    },
+    "bin": "jjui.exe",
+    "persist": "config",
+    "checkver": {
+        "github": "https://github.com/idursun/jjui"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/idursun/jjui/releases/download/v$version/jjui-$version-windows-arm64.zip"
+            }
+        }
+    }
+}

@@ -1,12 +1,12 @@
 {
-    "version": "9.2.134",
+    "version": "9.2.204",
     "description": "The official GUI for angr, an open-source binary analysis platform for Python",
     "homepage": "https://angr.io/",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/angr/angr-management/releases/download/v9.2.134/angr-management-win64.zip",
-            "hash": "502e35b662926d6109bbb0cdd0d233ec86ce07bf752bc628a639a6ca1cc0d9a5"
+            "url": "https://github.com/angr/angr-management/releases/download/v9.2.204/angr-management-v9.2.204-win64-x86_64.zip",
+            "hash": "1457681cd9072ec4d03cff767aa72cdd9316e280ec6b788445f9c244dbb1482c"
         }
     },
     "extract_dir": "angr-management",
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/angr/angr-management/releases/download/v$version/angr-management-win64.zip"
+                "url": "https://github.com/angr/angr-management/releases/download/v$version/angr-management-v$version-win64-x86_64.zip"
             }
         }
     }

@@ -1,0 +1,26 @@
+{
+    "version": "2.26.0",
+    "description": "A command line tool for RabbitMQ that uses the HTTP API",
+    "homepage": "https://github.com/rabbitmq/rabbitmqadmin-ng",
+    "license": "Apache-2.0|MIT",
+    "notes": [
+        "If you are migrating from the original `rabbitmqadmin`,",
+        "please see Breaking or Potentially Breaking Changes:",
+        "https://github.com/rabbitmq/rabbitmqadmin-ng?tab=readme-ov-file#breaking-or-potentially-breaking-changes"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v2.26.0/rabbitmqadmin-2.26.0-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe",
+            "hash": "c5de384948fab3eb59ad87536ba86a6535d11d9371d477bcfaae231de4a97231"
+        }
+    },
+    "bin": "rabbitmqadmin.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rabbitmq/rabbitmqadmin-ng/releases/download/v$version/rabbitmqadmin-$version-x86_64-pc-windows-msvc.exe#/rabbitmqadmin.exe"
+            }
+        }
+    }
+}

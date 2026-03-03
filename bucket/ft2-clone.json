@@ -1,17 +1,17 @@
 {
-    "version": "1.93",
+    "version": "2.07",
     "description": "Music tracker Fasttracker 2 clone.",
     "homepage": "https://16-bits.org/ft2.php",
     "license": "BSD-3-clause",
     "architecture": {
         "64bit": {
-            "url": "https://16-bits.org/ft2-clone-v1.93-win64.zip",
-            "hash": "c32ca977010745713a124086e19dff401a0ce89d56dbbad7033871fff33f0f2e",
+            "url": "https://16-bits.org/ft2-clone-v2.07-win64.zip",
+            "hash": "ecb5f7930c1f3241e5e1946bd1a39149970aaddc4d3ca0c67d74c33f5fb0758b",
             "extract_dir": "ft2-clone-win64"
         },
         "32bit": {
-            "url": "https://16-bits.org/ft2-clone-v1.93-win32.zip",
-            "hash": "e28755c95cccb2ff02ed1efede72160f25453291486f3701b2253155efa5d547",
+            "url": "https://16-bits.org/ft2-clone-v2.07-win32.zip",
+            "hash": "4e8c19c90bebf5e304ebc85c1201ac4a1a32407c9549a0d6bb83b7654a7bf002",
             "extract_dir": "ft2-clone-win32"
         }
     },

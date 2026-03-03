@@ -1,16 +1,16 @@
 {
-    "version": "0.199",
+    "version": "0.239",
     "description": "Lightweight control tool for Asus laptops",
     "homepage": "https://seerge.github.io/g-helper/",
     "license": "MIT",
     "notes": "Asus System Control Interface v3+ and .NET Desktop Runtime 7 are required.",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
+        ".NET Desktop Runtime 8.0": "versions/windowsdesktop-runtime-8.0"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/seerge/g-helper/releases/download/v0.199/GHelper.zip",
-            "hash": "ed90a34a6b8e90347f16314e406c4e82f83bf66dcf30cf2540b94f51aa98a338"
+            "url": "https://github.com/seerge/g-helper/releases/download/v0.239/GHelper.zip",
+            "hash": "f80a778a9dad7a25c7d08d0697f076292974e3369d2482337158a2ea21352ee4"
         }
     },
     "post_install": [

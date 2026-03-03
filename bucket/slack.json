@@ -1,5 +1,5 @@
 {
-    "version": "4.41.105",
+    "version": "4.48.95",
     "description": "Collaboration software",
     "homepage": "https://slack.com",
     "license": {
@@ -8,11 +8,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.41.105/slack-4.41.105-full.nupkg",
-            "hash": "sha1:a7f0071f41ac8d971f72bb718614b7586dd3c0e3"
+            "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.48.95/Slack.msix#/dl.zip",
+            "hash": "da8e18de8e192f94fbe0a618e2fee553851eb5078c21b06985ac88df098e6fa0"
+        },
+        "arm64": {
+            "url": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/4.48.95/Slack.msix#/dl.zip",
+            "hash": "249ffa5b837006eb8b41fe52aab77361ce9a8abd4abca6b25d40928c320b3483"
         }
     },
-    "extract_dir": "lib\\net45",
+    "extract_dir": "app",
     "bin": "slack.exe",
     "shortcuts": [
         [
@@ -27,11 +31,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/$version/slack-$version-full.nupkg"
+                "url": "https://downloads.slack-edge.com/desktop-releases/windows/x64/$version/Slack.msix#/dl.zip"
+            },
+            "arm64": {
+                "url": "https://downloads.slack-edge.com/desktop-releases/windows/arm64/$version/Slack.msix#/dl.zip"
             }
-        },
-        "hash": {
-            "url": "$baseurl/RELEASES"
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "version": "1.8.2",
+    "version": "1.12.3",
     "description": "Open-source FTP server software",
     "homepage": "https://filezilla-project.org/",
     "license": "GPL-2.0-or-later",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://packages.chocolatey.org/filezilla.server.1.8.2.nupkg",
-            "hash": "7529fc02448ddea5e6851d6e28122e13139f7516425c40382f6f2dee32d97921"
+            "url": "https://packages.chocolatey.org/filezilla.server.1.12.3.nupkg",
+            "hash": "484bd231cda6f1fc060d16309ae10ff0631625b7804e07ea54563c9395ec240c"
         }
     },
     "extract_dir": "tools",

@@ -1,12 +1,12 @@
 {
-    "version": "4.2.1",
+    "version": "5.5.6",
     "description": "Opens required browser based on configuration",
     "homepage": "https://www.aloneguid.uk/projects/bt/",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aloneguid/bt/releases/download/4.2.1/bt-4.2.1.zip",
-            "hash": "5cd864ae3231555a2b562f956fda9741aa26c4c27dc3db5a79d2dc7500774cb5"
+            "url": "https://github.com/aloneguid/bt/releases/download/5.5.6/bt-5.5.6.zip",
+            "hash": "9519dda74db7a212555c4d34eef6328f60ce678c73ce15857d77c742b9706cc6"
         }
     },
     "pre_install": [

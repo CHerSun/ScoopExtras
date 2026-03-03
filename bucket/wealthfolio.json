@@ -1,12 +1,12 @@
 {
-    "version": "1.0.22",
+    "version": "3.0.2",
     "description": "A wealth management tool designed to help users track and manage their financial portfolios.",
     "homepage": "https://wealthfolio.app/",
     "license": "LGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/afadil/wealthfolio/releases/download/v1.0.22/Wealthfolio_1.0.22_x64-setup.exe/#dl.7z",
-            "hash": "8512bd284ffe95aeb81f712570047da72cebe85543f3bf5eac0770cede93c251"
+            "url": "https://github.com/afadil/wealthfolio/releases/download/v3.0.2/Wealthfolio_3.0.2_x64-setup.exe/#dl.7z",
+            "hash": "fea1373079af2cbaffd04d212383e26b794f456c7e5738c7db32c437bb58ee6a"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse",

@@ -1,15 +1,15 @@
 {
-    "version": "209",
+    "version": "261",
     "description": "A highly customizable fan controlling software for Windows",
     "homepage": "https://getfancontrol.com/",
     "license": "Freeware",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+        ".NET Desktop Runtime 10.0": "versions/windowsdesktop-runtime-10.0"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V209/FanControl_209_net_8_0.zip",
-            "hash": "4a6066053e854f2566a7f6c00cf3a00872b092af70416a9cd0dabf560df72d6b"
+            "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V261/FanControl_261_net_10_0.zip",
+            "hash": "08ae36604598f0e911417b30db4f957534bccee922690c3660e6da2529213cdb"
         }
     },
     "shortcuts": [

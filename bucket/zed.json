@@ -1,0 +1,43 @@
+{
+    "version": "0.225.12",
+    "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source.",
+    "homepage": "https://zed.dev/",
+    "license": "AGPL-3.0, Apache-2.0, GPL-3.0",
+    "notes": "Please manually disable Zed's auto-update feature in the settings to prevent the updater from installing the program in unintended locations.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zed-industries/zed/releases/download/v0.225.12/Zed-x86_64.exe",
+            "hash": "11c0d05bd13ef134026886b7f65de1bb97813453a6e8fae552d1017a5ba9a9cf"
+        },
+        "arm64": {
+            "url": "https://github.com/zed-industries/zed/releases/download/v0.225.12/Zed-aarch64.exe",
+            "hash": "df1dcb5363482b99815f852c36ff239d99d5dcfa235d631b14a7522783414ce0"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-InnoArchive -Path \"$dir\\$fname\" -ExtractDir '{app}'",
+            "Expand-InnoArchive -Path \"$dir\\$fname\" -ExtractDir '{code_GetInstallDir}' -Removal"
+        ]
+    },
+    "bin": "bin\\zed.exe",
+    "shortcuts": [
+        [
+            "zed.exe",
+            "Zed"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/zed-industries/zed"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zed-industries/zed/releases/download/v$version/Zed-x86_64.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/zed-industries/zed/releases/download/v$version/Zed-aarch64.exe"
+            }
+        }
+    }
+}
